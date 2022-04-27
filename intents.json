@@ -1,0 +1,11 @@
+{"intents":[
+            {"tag": "greeting",
+             "patterns": ["Hey", "Hello", "How're you doing?"],
+             "responses": ["Hello", "Doing great!"]},
+            {"tag": "create_note",
+             "patterns": ["Please create a new note"],
+             "responses": [""]},
+            {"tag":"exit",
+             "patterns": "Bye",
+             "responses":[""]}
+]}
